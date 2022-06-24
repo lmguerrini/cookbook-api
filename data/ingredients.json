@@ -1,0 +1,14 @@
+{
+    "main_ingredients": [
+        { "name": "Paprika", "color": "red" },
+        { "name": "Aubergine", "color": "purple" }
+    ],
+    "other_ingredients": [
+        { "name": "Paprika", "color": "red" },
+        { "name": "Aubergine", "color": "purple" },
+        { "name": "Pumpkin", "color": "orange" },
+        { "name": "Lemon", "color": "yellow" },
+        { "name": "Spinach", "color": "green" },
+        { "name": "Blueberries", "color": "blue" }
+    ]
+}

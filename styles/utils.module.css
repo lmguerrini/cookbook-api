@@ -1,0 +1,26 @@
+/* utility for typography and others that will be useful across multiple components. */
+
+.headerTitle {
+    margin-top: 0;
+    padding: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    justify-content: center;
+    letter-spacing: 3px;
+    background-image: linear-gradient(
+        to left,
+        red,
+        purple,
+        orange,
+        yellow,
+        green,
+        blue
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 200px 200px 200px;
+}

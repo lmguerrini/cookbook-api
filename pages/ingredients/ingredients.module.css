@@ -1,0 +1,31 @@
+.optionList {
+    padding: 5px 10px;
+}
+
+.optionList:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+.optionList:focus,
+.optionList:active {
+    outline: none;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listZoom {
+    transition-delay: "500ms";
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#cardAvatar {
+    transform: translate(-15px, -7px);
+    padding: 16px;
+    background-position: "center";
+    background-repeat: "no-repeat";
+}

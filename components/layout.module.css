@@ -1,0 +1,28 @@
+.container {
+    width: 100vw;
+    text-align: center;
+    min-width: 500px;
+}
+
+.header {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    margin-bottom: 5vh;
+    background-image: url("/images/veggiesHeader.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 200px;
+}
+
+.headerTitleContainer {
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
